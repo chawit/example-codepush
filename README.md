@@ -13,9 +13,9 @@ cordova plugin add cordova-plugin-code-push@latest
 2. Edit config.xml(add key from CodePush Server)
 ```
 <platform name="android">
-    <preference name="CodePushDEV" value="Your KEY(android)" />
+     <preference name="CodePushDeploymentKey" value="<your key>" />
 </platform>
 <platform name="ios">
-    <preference name="CodePushDEV" value="Your KEY(ios)" />
+      <preference name="CodePushDeploymentKey" value="<your key>" />
 </platform>
 ```
