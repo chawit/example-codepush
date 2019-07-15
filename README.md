@@ -10,3 +10,12 @@ This repository is an example ionic application, which use CodePush service.
 ```
 cordova plugin add cordova-plugin-code-push@latest
 ```
+2. Edit config.xml(add key from CodePush Server)
+```
+<platform name="android">
+    <preference name="CodePushDEV" value="Your KEY(android)" />
+</platform>
+<platform name="ios">
+    <preference name="CodePushDEV" value="our KEY(ios)" />
+</platform>
+```
