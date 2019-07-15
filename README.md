@@ -16,6 +16,6 @@ cordova plugin add cordova-plugin-code-push@latest
     <preference name="CodePushDEV" value="Your KEY(android)" />
 </platform>
 <platform name="ios">
-    <preference name="CodePushDEV" value="our KEY(ios)" />
+    <preference name="CodePushDEV" value="Your KEY(ios)" />
 </platform>
 ```
